@@ -30,9 +30,7 @@ public class CSVFileReader {
         return data;
     }
     public static void printData(ArrayList<String>data){
-        for(int i=0;i<data.size();i++){
-            System.out.println(data.get(i));
-        }
+        System.out.println(data);
     }
     public static void main(String[] args) {
         //File path of the given csv file

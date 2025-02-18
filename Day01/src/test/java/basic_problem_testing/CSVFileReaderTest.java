@@ -11,7 +11,7 @@ public class CSVFileReaderTest {
     public  void readCSVFileTest(){
         String filePath="C:\\Users\\udit0\\OneDrive\\Documents\\CapgeminiTraining\\Assignments\\Week5\\Day01\\src\\main\\java\\org\\example\\basic_problems\\read_a_csv_file_and_print_data\\student.csv";
         ArrayList<String>data=CSVFileReader.readCSVFile(filePath);
-        ArrayList<String>expectedData=new ArrayList<>(Arrays.asList("ID: 123,Name: Vinay,Age: 21,Marks:50"));
+        ArrayList<String>expectedData=new ArrayList<>(Arrays.asList("[ID: 123,Name: Vinay,Age: 21,Marks:50]"));
         Assertions.assertEquals(expectedData,data);
     }
 }
