@@ -23,7 +23,7 @@ public class RowCounterInACSVfile {
         catch (IOException e){
             e.printStackTrace();
         }
-        return countRows;
+            return countRows;
     }
 
     public static void main(String[] args) {
