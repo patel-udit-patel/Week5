@@ -7,13 +7,12 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class RecordFinder {
-    //method reads and return data of a CSV file in String
+    //method reads and return data of a CSV file in String with given name constraint
     public static String readCSVFile(String filePath,String name){
         String record="";
         //Handling file exceptions
         try(CSVReader reader=new CSVReader(new FileReader(filePath))){
             String[] nextLine;
-//            reader.readNext();
             String obj = "";
             while ((nextLine = reader.readNext()) != null) {
                 if(name.equals(nextLine[1])) {
