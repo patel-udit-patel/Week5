@@ -1,8 +1,5 @@
 package org.example.hands_on_practice_problems.generate_json_from_database;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
-import java.io.FileWriter;
-import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

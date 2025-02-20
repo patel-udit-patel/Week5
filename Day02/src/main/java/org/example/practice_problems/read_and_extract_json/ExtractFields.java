@@ -3,7 +3,6 @@ package org.example.practice_problems.read_and_extract_json;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
-import java.util.Iterator;
 
 public class ExtractFields {
     public static void main(String[] args) {
